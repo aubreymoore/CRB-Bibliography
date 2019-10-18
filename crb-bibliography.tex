@@ -1,0 +1,52 @@
+\documentclass[12pt,letterpaper,english]{scrartcl}
+\usepackage{fullpage}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+ {hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\usepackage[utf8]{inputenc}
+\usepackage[backend=biber,maxbibnames=99]{biblatex}
+\usepackage{csquotes}
+\addbibresource{CRB-group.bib}
+
+\title{DRAFT \\ Coconut Rhinoceros Beetle Bibliography}
+\author{Aubrey Moore and James Grasela}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\small{\url{https://github.com/aubreymoore/CRB-Bibliography/raw/master/crb-bibliography.pdf}}
+\end{center}
+
+\printbibliography
+
+\nocite{*}
+
+\section*{Technical Notes}
+
+\begin{itemize}
+	\item Source of this bibliography is a \textbf{Zotero} private group library. 
+	\item To facilitate updates, source code for this document is maintained in a local \textbf{git} repository in a local folder named \textbf{CRB-group-biblio}. This local repo is linked to a remote repo on GitHub. 
+	\item Document source: \url{https://github.com/aubreymoore/CRB-Bibliography/raw/master/crb-bibliography.pdf}
+\end{itemize}
+
+\section*{Citation (Bibtex)}
+
+\begin{verbatim}
+@misc{moore_coconut_2019,
+title = {{Coconut Rhinoceros Beetle Bibliography}},
+url = {https://github.com/aubreymoore/CRB-Bibliography/raw/master/crb-bibliography.pdf},
+author = {Moore, Aubrey and Grasela, James},
+year = {2019}
+}
+\end{verbatim}
+
+
+\end{document}
