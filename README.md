@@ -1,7 +1,7 @@
 # CRB-Bibliography
 
-.bib is the raw data in BibTex format.
+**CRB-group.bib** is the raw data in BibTex format. This file was exported from a Zotero group library.
 
-.pdf is a formatted bibliography.
+**crb-bibliography.pdf** is a formatted bibliography.
 
-.tex is LaTex code which formats the bibliography using the **.bib** file as input.
+**crb-bibliography.tex** is LaTex code which formats the bibliography using **CRB-group.bib** as input.
